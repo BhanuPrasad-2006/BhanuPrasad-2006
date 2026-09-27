@@ -58,10 +58,10 @@ def frame(w, h, title, body):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-label="{title}">
   <style>
     text {{ font-family: {FONT}; }}
-    .row {{ opacity: 0; animation: in .5s ease-out forwards; }}
+    .row {{ animation: in .6s ease-out backwards; }}
     @keyframes in {{ from {{ opacity: 0; transform: translateX(-8px) }} to {{ opacity: 1; transform: none }} }}
-    .bar {{ transform-box: fill-box; transform-origin: left; animation: grow 1.1s ease-out forwards; transform: scaleX(0); }}
-    @keyframes grow {{ to {{ transform: scaleX(1) }} }}
+    .bar {{ transform-box: fill-box; transform-origin: left; animation: grow 1.1s ease-out backwards; }}
+    @keyframes grow {{ from {{ transform: scaleX(0) }} to {{ transform: scaleX(1) }} }}
     .blink {{ animation: b 1s steps(1) infinite; }} @keyframes b {{ 50% {{ opacity: 0 }} }}
   </style>
   <rect x="1" y="1" width="{w-2}" height="{h-2}" rx="12" fill="{BG}" stroke="{NEON}" stroke-opacity=".35"/>

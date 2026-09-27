@@ -45,7 +45,7 @@ def card(slug, accent, accent2, tag, title, bullets, stack, art, label):
   </defs>
   <style>
     text {{ font-family: {FONT}; }}
-    .row {{ opacity: 0; animation: in .6s ease-out forwards; }}
+    .row {{ animation: in .6s ease-out backwards; }}
     @keyframes in {{ from {{ opacity: 0; transform: translateX(-10px) }} to {{ opacity: 1; transform: none }} }}
     .blink {{ animation: blink 1.2s steps(1) infinite; }} @keyframes blink {{ 50% {{ opacity: 0 }} }}
     .spin {{ animation: spin 10s linear infinite; transform-box: fill-box; transform-origin: center; }} @keyframes spin {{ to {{ transform: rotate(360deg) }} }}
