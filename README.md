@@ -125,7 +125,7 @@ motto:      "Build it secure. Then try to break it."
 ## `> ./connect --secure`
 
 <a href="https://www.linkedin.com/in/bhanuprasad-gulivindala-26751432a/"><img src="https://img.shields.io/badge/LinkedIn-Bhanu%20Prasad%20Gulivindala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e14"/></a>
-<a href="https://www.instagram.com/g__bhanuprasad/"><img src="https://img.shields.io/badge/Instagram-g__bhanuprasad-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0a0e14"/></a>
+<a href="https://www.instagram.com/g__bhanuprasad/"><img src="https://img.shields.io/badge/Instagram-g____bhanuprasad-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=0a0e14"/></a>
 <a href="https://github.com/BhanuPrasad-2006?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20my%20repos-00ff9c?style=for-the-badge&logo=github&logoColor=00ff9c&labelColor=0a0e14"/></a>
 
 <sub><code>// session closed · stay curious · stay secure</code></sub>
