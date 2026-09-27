@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="436" viewBox="0 0 900 436" role="img" aria-label="Terminal: whoami — Bhanu Prasad, cyber security student">
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; font-size: 15px; }
+    .blink { animation: b 1s steps(1) infinite; } @keyframes b { 50% { opacity: 0 } }
+  </style>
+  <defs><linearGradient id="tb" x1="0" x2="1"><stop offset="0" stop-color="#0d1117"/><stop offset="1" stop-color="#0b1a16"/></linearGradient></defs>
+  <rect x="1" y="1" width="898" height="434" rx="12" fill="#0a0e14" stroke="#00ff9c" stroke-opacity="0.35"/>
+  <path d="M1 13 A12 12 0 0 1 13 1 H887 A12 12 0 0 1 899 13 V36 H1 Z" fill="url(#tb)"/>
+  <line x1="1" y1="36" x2="899" y2="36" stroke="#00ff9c" stroke-opacity="0.25"/>
+  <circle cx="24" cy="18.5" r="6" fill="#ff5f56"/><circle cx="44" cy="18.5" r="6" fill="#ffbd2e"/><circle cx="64" cy="18.5" r="6" fill="#27c93f"/>
+  <text x="450" y="23" text-anchor="middle" fill="#8b949e" style="font-size:13px">bhanu@sec: ~/profile — zsh</text>
+  <text x="28" y="58" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">whoami</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.025;0.0344;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="84" opacity="0" xml:space="preserve"><tspan fill="#8b949e">bhanu_prasad  —  CSE (Cyber Security) @ Dayananda Sagar College of Engineering</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0719;0.0812;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="110" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">cat focus.txt</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1187;0.1281;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="136" opacity="0" xml:space="preserve"><tspan fill="#8b949e">[+] digital forensics   [+] secure full-stack   [+] fraud detection   [+] CTFs</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.1656;0.175;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="162" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">./current_mission --sih</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2125;0.2219;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="188" opacity="0" xml:space="preserve"><tspan fill="#ff5ca8">[SIH26150 · NTRO] DVR/NVR forensic analysis tool — recover, verify, report</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2594;0.2688;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="214" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">nmap -sV skills.local</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3063;0.3156;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="240" opacity="0" xml:space="preserve"><tspan fill="#8b949e">PORT     STATE  SERVICE</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3531;0.3625;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="266" opacity="0" xml:space="preserve"><tspan fill="#8b949e">22/tcp   open   python · fastapi · opencv · ffmpeg</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.4094;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="292" opacity="0" xml:space="preserve"><tspan fill="#8b949e">80/tcp   open   react · next.js · node.js · express</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4469;0.4563;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="318" opacity="0" xml:space="preserve"><tspan fill="#8b949e">5432/tcp open   postgresql · mongodb · redis · docker</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4938;0.5031;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="344" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">echo $STATUS</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5406;0.55;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <text x="28" y="370" opacity="0" xml:space="preserve"><tspan fill="#00ff9c">always learning · building secure systems ✔</tspan><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.5875;0.5969;0.97;1" dur="16.0s" repeatCount="indefinite"/></text>
+  <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6344;0.6354;0.97;1" dur="16.0s" repeatCount="indefinite"/>
+  <text x="28" y="396" xml:space="preserve"><tspan fill="#00ff9c">bhanu@sec</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#00e5ff">~</tspan><tspan fill="#8b949e">$ </tspan></text>
+  <rect class="blink" x="166" y="382" width="9" height="18" fill="#00ff9c"/></g>
+</svg>

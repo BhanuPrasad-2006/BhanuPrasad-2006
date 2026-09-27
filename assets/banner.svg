@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Bhanu Prasad — Cyber Security · Digital Forensics · Secure Full-Stack">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05080d"/>
+      <stop offset="0.55" stop-color="#0a1320"/>
+      <stop offset="1" stop-color="#071a14"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00ff9c"/>
+      <stop offset="0.5" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#00ff9c"/>
+    </linearGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00ff9c" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00ff9c" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-40%" width="140%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="320" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+      .rain text { fill: #00ff9c; font-size: 15px; }
+      .col { animation: fall linear infinite; }
+      @keyframes fall { from { transform: translateY(-340px); } to { transform: translateY(340px); } }
+      .scanline { animation: scan 4.5s linear infinite; }
+      @keyframes scan { from { transform: translateY(-120px); } to { transform: translateY(340px); } }
+      .glitch-a { animation: ga 3.2s steps(1) infinite; }
+      .glitch-b { animation: gb 3.2s steps(1) infinite; }
+      @keyframes ga { 0%,88%,100% { transform: translate(0,0); opacity:0 } 89% { transform: translate(-4px,1px); opacity:.8 } 91% { transform: translate(3px,-2px); opacity:.8 } 93% { opacity:0 } }
+      @keyframes gb { 0%,88%,100% { transform: translate(0,0); opacity:0 } 90% { transform: translate(4px,2px); opacity:.8 } 92% { transform: translate(-3px,0); opacity:.8 } 94% { opacity:0 } }
+      .type { animation: typing 3.4s steps(58, end) 0.6s both; }
+      @keyframes typing { from { width: 0 } to { width: 760px } }
+      .cursor { animation: blink 1s steps(1) infinite; }
+      @keyframes blink { 50% { opacity: 0 } }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-origin: 1025px 160px; }
+      @keyframes pulse { 0%,100% { opacity: .55; transform: scale(1) } 50% { opacity: 1; transform: scale(1.04) } }
+      .ring { animation: spin 14s linear infinite; transform-origin: 1025px 160px; }
+      .ring2 { animation: spin 22s linear infinite reverse; transform-origin: 1025px 160px; }
+      @keyframes spin { to { transform: rotate(360deg) } }
+      .dot { animation: blink 1.6s steps(1) infinite; }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <!-- matrix rain -->
+    <g class="rain mono" opacity="0.22">
+      <g class="col" style="animation-duration:7s"><text x="40" y="20">1</text><text x="40" y="44">0</text><text x="40" y="68">f</text><text x="40" y="92">a</text><text x="40" y="116">3</text><text x="40" y="140">9</text><text x="40" y="164">e</text><text x="40" y="188">0</text></g>
+      <g class="col" style="animation-duration:9s;animation-delay:-3s"><text x="110" y="20">7</text><text x="110" y="44">c</text><text x="110" y="68">1</text><text x="110" y="92">d</text><text x="110" y="116">4</text><text x="110" y="140">0</text><text x="110" y="164">b</text></g>
+      <g class="col" style="animation-duration:6s;animation-delay:-1s"><text x="600" y="20">e</text><text x="600" y="44">3</text><text x="600" y="68">b</text><text x="600" y="92">0</text><text x="600" y="116">1</text><text x="600" y="140">f</text></g>
+      <g class="col" style="animation-duration:8s;animation-delay:-5s"><text x="720" y="20">a</text><text x="720" y="44">5</text><text x="720" y="68">0</text><text x="720" y="92">9</text><text x="720" y="116">c</text><text x="720" y="140">2</text><text x="720" y="164">1</text></g>
+      <g class="col" style="animation-duration:10s;animation-delay:-2s"><text x="820" y="20">0</text><text x="820" y="44">1</text><text x="820" y="68">1</text><text x="820" y="92">0</text><text x="820" y="116">d</text><text x="820" y="140">e</text></g>
+      <g class="col" style="animation-duration:7.5s;animation-delay:-6s"><text x="1150" y="20">f</text><text x="1150" y="44">f</text><text x="1150" y="68">0</text><text x="1150" y="92">4</text><text x="1150" y="116">a</text><text x="1150" y="140">7</text><text x="1150" y="164">1</text></g>
+      <g class="col" style="animation-duration:9.5s;animation-delay:-4s"><text x="1180" y="20">2</text><text x="1180" y="44">b</text><text x="1180" y="68">8</text><text x="1180" y="92">0</text><text x="1180" y="116">e</text></g>
+    </g>
+
+    <!-- scan line -->
+    <rect class="scanline" x="0" y="0" width="1200" height="110" fill="url(#scan)"/>
+
+    <!-- corner brackets -->
+    <g stroke="#00ff9c" stroke-width="2" fill="none" opacity="0.7">
+      <path d="M24 60V24H60"/><path d="M1140 24H1176V60"/><path d="M24 260V296H60"/><path d="M1176 260V296H1140"/>
+    </g>
+
+    <!-- status line -->
+    <g class="mono" font-size="14" fill="#7ee7c1">
+      <circle class="dot" cx="80" cy="62" r="5" fill="#00ff9c"/>
+      <text x="94" y="67">SECURE SESSION ESTABLISHED · TLS 1.3 · IST +05:30</text>
+    </g>
+
+    <!-- name with glitch layers -->
+    <g class="mono" font-size="64" font-weight="700" letter-spacing="3">
+      <text class="glitch-a" x="76" y="152" fill="#ff2e88">BHANU PRASAD</text>
+      <text class="glitch-b" x="76" y="152" fill="#00e5ff">BHANU PRASAD</text>
+      <text x="76" y="152" fill="url(#name)" filter="url(#glow)">BHANU PRASAD</text>
+    </g>
+
+    <!-- typing subtitle -->
+    <clipPath id="typeclip"><rect x="78" y="176" height="40" width="0"><animate attributeName="width" values="0.0;13.3;26.6;39.9;53.2;66.5;79.8;93.1;106.4;119.7;133.0;146.3;159.6;172.9;186.2;199.5;212.8;226.1;239.4;252.7;266.0;279.3;292.6;305.9;319.2;332.5;345.8;359.1;372.4;385.7;399.0;412.3;425.6;438.9;452.2;465.5;478.8;492.1;505.4;518.7;532.0;545.3;558.6;571.9;585.2;598.5;611.8;625.1;638.4;651.7;665.0;678.3;691.6;704.9;718.2;731.5;744.8;758.1;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4;771.4" keyTimes="0.0;0.0102;0.0204;0.0306;0.0408;0.051;0.0612;0.0714;0.0816;0.0918;0.102;0.1122;0.1224;0.1327;0.1429;0.1531;0.1633;0.1735;0.1837;0.1939;0.2041;0.2143;0.2245;0.2347;0.2449;0.2551;0.2653;0.2755;0.2857;0.2959;0.3061;0.3163;0.3265;0.3367;0.3469;0.3571;0.3673;0.3776;0.3878;0.398;0.4082;0.4184;0.4286;0.4388;0.449;0.4592;0.4694;0.4796;0.4898;0.5;0.5102;0.5204;0.5306;0.5408;0.551;0.5612;0.5714;0.5816;0.5918;0.602;0.6122;0.6224;0.6327;0.6429;0.6531;0.6633;0.6735;0.6837;0.6939;0.7041;0.7143;0.7245;0.7347;0.7449;0.7551;0.7653;0.7755;0.7857;0.7959;0.8061;0.8163;0.8265;0.8367;0.8469;0.8571;0.8673;0.8776;0.8878;0.898;0.9082;0.9184;0.9286;0.9388;0.949;0.9592;0.9694;0.9796;0.9898;1.0" dur="7s" begin="0.4s" repeatCount="indefinite" calcMode="discrete"/></rect></clipPath>
+    <g clip-path="url(#typeclip)">
+      <text class="mono" x="78" y="204" font-size="22" fill="#d7fff0">&gt; Cyber Security · Digital Forensics · Secure Full-Stack_</text>
+    </g>
+
+    <!-- tag chips -->
+    <g class="mono" font-size="14">
+      <g transform="translate(78 236)">
+        <rect width="164" height="32" rx="6" fill="#00ff9c" fill-opacity="0.08" stroke="#00ff9c" stroke-opacity="0.6"/>
+        <text x="82" y="21" text-anchor="middle" fill="#00ff9c">CSE · Cyber Sec</text>
+      </g>
+      <g transform="translate(252 236)">
+        <rect width="132" height="32" rx="6" fill="#00e5ff" fill-opacity="0.08" stroke="#00e5ff" stroke-opacity="0.6"/>
+        <text x="66" y="21" text-anchor="middle" fill="#00e5ff">@ DSCE, BLR</text>
+      </g>
+      <g transform="translate(398 236)">
+        <rect width="196" height="32" rx="6" fill="#ff2e88" fill-opacity="0.08" stroke="#ff2e88" stroke-opacity="0.6"/>
+        <text x="98" y="21" text-anchor="middle" fill="#ff5ca8">SIH 2026 · SIH26150</text>
+      </g>
+      <g transform="translate(608 236)">
+        <rect width="112" height="32" rx="6" fill="#ffd166" fill-opacity="0.08" stroke="#ffd166" stroke-opacity="0.6"/>
+        <text x="56" y="21" text-anchor="middle" fill="#ffd166">CTF player</text>
+      </g>
+    </g>
+
+    <!-- shield emblem -->
+    <g filter="url(#softglow)">
+      <circle class="ring" cx="1025" cy="160" r="104" fill="none" stroke="#00e5ff" stroke-opacity="0.5" stroke-width="2" stroke-dasharray="4 10 40 10"/>
+      <circle class="ring2" cx="1025" cy="160" r="86" fill="none" stroke="#00ff9c" stroke-opacity="0.55" stroke-width="1.5" stroke-dasharray="60 14 6 14"/>
+      <g class="pulse">
+        <path d="M1025 92 L1080 113 V160 C1080 196 1057 222 1025 234 C993 222 970 196 970 160 V113 Z" fill="#00ff9c" fill-opacity="0.08" stroke="#00ff9c" stroke-width="3"/>
+        <rect x="1003" y="156" width="44" height="36" rx="5" fill="none" stroke="#00ff9c" stroke-width="3"/>
+        <path d="M1011 156 V145 A14 14 0 0 1 1039 145 V156" fill="none" stroke="#00ff9c" stroke-width="3"/>
+        <circle cx="1025" cy="171" r="4.5" fill="#00ff9c"/>
+        <path d="M1025 175 V182" stroke="#00ff9c" stroke-width="3" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+  <rect x="1" y="1" width="1198" height="318" rx="17" fill="none" stroke="#00ff9c" stroke-opacity="0.35"/>
+</svg>

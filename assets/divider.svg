@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="24" viewBox="0 0 1200 24" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#00ff9c" stop-opacity="0"/><stop offset=".5" stop-color="#00e5ff"/><stop offset="1" stop-color="#00ff9c" stop-opacity="0"/></linearGradient>
+    <linearGradient id="spark" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#ffffff"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <filter id="f"><feGaussianBlur stdDeviation="1.6"/></filter>
+  </defs>
+  <rect x="0" y="11" width="1200" height="2" fill="url(#g)"/>
+  <rect x="0" y="9" width="1200" height="6" fill="url(#g)" opacity=".35" filter="url(#f)"/>
+  <rect y="10" width="140" height="4" rx="2" fill="url(#spark)" opacity=".9">
+    <animate attributeName="x" values="-140;1200" dur="3.2s" repeatCount="indefinite"/>
+  </rect>
+  <g fill="#00ff9c"><circle cx="600" cy="12" r="3.5"/><circle cx="584" cy="12" r="2" opacity=".6"/><circle cx="616" cy="12" r="2" opacity=".6"/></g>
+</svg>

@@ -1,34 +1,155 @@
 <div align="center">
 
-# Hi, I'm Bhanu Prasad 👋
+<img src="./assets/banner.svg" alt="Bhanu Prasad — Cyber Security · Digital Forensics · Secure Full-Stack" width="100%"/>
 
-**Computer Science & Cyber Security student** at Dayananda Sagar College of Engineering, Bengaluru<br>
-I build secure full-stack systems and digital-forensics tools, and I play CTFs.
+<br/>
+
+<a href="https://github.com/BhanuPrasad-2006"><img src="https://img.shields.io/badge/STATUS-ONLINE-00ff9c?style=for-the-badge&labelColor=0a0e14&logo=gnubash&logoColor=00ff9c" alt="status"/></a>
+<img src="https://img.shields.io/badge/FOCUS-DIGITAL%20FORENSICS-00e5ff?style=for-the-badge&labelColor=0a0e14&logo=hackthebox&logoColor=00e5ff" alt="focus"/>
+<img src="https://img.shields.io/badge/SIH%202026-SIH26150-ff2e88?style=for-the-badge&labelColor=0a0e14&logo=target&logoColor=ff2e88" alt="SIH 2026"/>
+<img src="https://komarev.com/ghpvc/?username=BhanuPrasad-2006&label=PROFILE%20HITS&color=00ff9c&style=for-the-badge&labelColor=0a0e14" alt="profile views"/>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-### 🔭 What I'm working on
+## `> whoami`
 
-- **[DVR/NVR Forensic Analysis Tool](https://github.com/BhanuPrasad-2006/sih-26150)** — Smart India Hackathon 2026 (SIH26150, NTRO). One workflow to acquire, recover, validate and report surveillance footage across DVR/NVR vendors: disk-image hashing, vendor-format parsing, deleted-footage carving, timeline correlation and forensic reports.
+<div align="center">
+<img src="./assets/terminal.svg" alt="Terminal: whoami — Bhanu Prasad, CSE (Cyber Security) at DSCE. Focus: digital forensics, secure full-stack, fraud detection, CTFs. Current mission: SIH26150 DVR/NVR forensic analysis tool." width="85%"/>
+</div>
 
-### 🛠️ Featured projects
+<br/>
 
-| Project | What it is | Stack |
-|---|---|---|
-| [**DVR/NVR Forensics**](https://github.com/BhanuPrasad-2006/sih-26150) | Vendor-agnostic surveillance-evidence recovery with chain-of-custody reporting | Python · FastAPI · OpenCV · FFmpeg · Docker |
-| [**College Election System**](https://github.com/BhanuPrasad-2006/online-college-electoral-system) | Online voting with OTP verification, anonymous hash-chained votes, anti-replay and AI fraud detection | Next.js · FastAPI · PostgreSQL · Redis |
-| [**Hospital Management System**](https://github.com/BhanuPrasad-2006/Hospital-management-mini-project) | Healthcare platform for rural India — prescription scanner, SOS ambulance dispatch, blood-donor network, 8 languages, zero-trust security | React · Node.js · PostgreSQL · Prisma · FastAPI |
-| [**VaultCore**](https://github.com/BhanuPrasad-2006/vaultcore) | Banking backend with real-time ML risk scoring (Isolation Forest), device fingerprinting and step-up 2FA | Node.js · PostgreSQL · MongoDB · FastAPI |
+I'm a **Computer Science & Cyber Security** student at **Dayananda Sagar College of Engineering, Bengaluru**. I like building systems that hold up under attack — and taking apart ones that don't. Right now I'm deep in **digital forensics**, recovering surveillance footage from DVR/NVR disks for **Smart India Hackathon 2026**.
 
-### 🧰 Tech I use
+<img src="./assets/divider.svg" width="100%" alt=""/>
 
-- **Languages:** Python · JavaScript · SQL
-- **Web:** React · Next.js · Node.js / Express · FastAPI · Tailwind CSS
-- **Data & infra:** PostgreSQL · MongoDB · SQLite · Redis · Prisma · Docker
-- **Security:** Digital forensics · Secure auth (JWT, OTP, 2FA) · Password-hash cracking (hashcat) · CTFs
+## `> ls ./projects --featured`
 
-### 📚 Interests
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Cyber security & forensics · Graph theory and algorithms · Discrete mathematics
+### 🎥 [DVR/NVR Forensic Analysis Tool](https://github.com/BhanuPrasad-2006/sih-26150)
+**SIH 2026 · NTRO · SIH26150**
+
+Vendor-agnostic evidence recovery for surveillance recorders — read-only acquisition with SHA-256/MD5 hashing, vendor-format parsing (Dahua, Hikvision, Honeywell), deleted-footage carving, cross-camera timelines and chain-of-custody reports.
+
+<img src="https://img.shields.io/badge/Python-0a0e14?style=flat-square&logo=python&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/FastAPI-0a0e14?style=flat-square&logo=fastapi&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/OpenCV-0a0e14?style=flat-square&logo=opencv&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/FFmpeg-0a0e14?style=flat-square&logo=ffmpeg&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Docker-0a0e14?style=flat-square&logo=docker&logoColor=00ff9c"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🗳️ [Secure College Election System](https://github.com/BhanuPrasad-2006/online-college-electoral-system)
+**E-voting · Integrity · Fraud detection**
+
+Online elections with OTP + just-in-time identity checks, anonymous votes linked in a hash chain, anti-replay tokens, AI anomaly detection and a full audit trail.
+
+<img src="https://img.shields.io/badge/Next.js-0a0e14?style=flat-square&logo=nextdotjs&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/FastAPI-0a0e14?style=flat-square&logo=fastapi&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Redis-0a0e14?style=flat-square&logo=redis&logoColor=00ff9c"/>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🏦 [VaultCore](https://github.com/BhanuPrasad-2006/vaultcore)
+**Banking · Real-time ML fraud scoring**
+
+Every withdrawal is risk-scored by an Isolation Forest model: allow, step-up to 2FA, or freeze. Device fingerprinting, AES-256 encrypted account numbers, rate limiting and live WebSocket threat alerts.
+
+<img src="https://img.shields.io/badge/Node.js-0a0e14?style=flat-square&logo=nodedotjs&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/scikit--learn-0a0e14?style=flat-square&logo=scikitlearn&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/MongoDB-0a0e14?style=flat-square&logo=mongodb&logoColor=00e5ff"/>
+
+</td>
+<td width="50%" valign="top">
+
+### 🏥 [Hospital Management System](https://github.com/BhanuPrasad-2006/Hospital-management-mini-project)
+**Healthcare · Zero-trust security**
+
+Built for rural India — prescription scanner, SOS ambulance dispatch, blood-donor network and 8-language support, with JWT auth, account lockout and zero-trust access controls.
+
+<img src="https://img.shields.io/badge/React-0a0e14?style=flat-square&logo=react&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Express-0a0e14?style=flat-square&logo=express&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/Prisma-0a0e14?style=flat-square&logo=prisma&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00ff9c"/>
+
+</td>
+</tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## `> cat arsenal.conf`
+
+<table>
+<tr><td><b><code>[languages]</code></b></td><td>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=00ff9c"/>
+</td></tr>
+<tr><td><b><code>[security]</code></b></td><td>
+<img src="https://img.shields.io/badge/Digital%20Forensics-0a0e14?style=for-the-badge&logo=databricks&logoColor=00ff9c"/>
+<img src="https://img.shields.io/badge/Hashcat-0a0e14?style=for-the-badge&logo=hackaday&logoColor=ff2e88"/>
+<img src="https://img.shields.io/badge/CTF-0a0e14?style=for-the-badge&logo=hackthebox&logoColor=9FEF00"/>
+<img src="https://img.shields.io/badge/JWT%20%C2%B7%20OTP%20%C2%B7%202FA-0a0e14?style=for-the-badge&logo=jsonwebtokens&logoColor=00e5ff"/>
+</td></tr>
+<tr><td><b><code>[web]</code></b></td><td>
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+<img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+<img src="https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
+</td></tr>
+<tr><td><b><code>[data · infra]</code></b></td><td>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white"/>
+<img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+<img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
+</td></tr>
+<tr><td><b><code>[ml · media]</code></b></td><td>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
+<img src="https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white"/>
+</td></tr>
+</table>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## `> ./scan --activity`
+
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=BhanuPrasad-2006&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0e14&title_color=00ff9c&icon_color=00e5ff&text_color=c9d1d9&ring_color=00ff9c" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhanuPrasad-2006&layout=compact&langs_count=8&hide_border=true&bg_color=0a0e14&title_color=00ff9c&text_color=c9d1d9" alt="Top languages"/>
+
+<img width="85%" src="https://streak-stats.demolab.com?user=BhanuPrasad-2006&hide_border=true&background=0a0e14&ring=00ff9c&fire=ff2e88&currStreakLabel=00ff9c&sideLabels=00e5ff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=00ff9c33" alt="Contribution streak"/>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BhanuPrasad-2006/BhanuPrasad-2006/output/snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BhanuPrasad-2006/BhanuPrasad-2006/output/snake-light.svg"/>
+  <img alt="Contribution snake eating my commit graph" src="https://raw.githubusercontent.com/BhanuPrasad-2006/BhanuPrasad-2006/output/snake-dark.svg" width="100%"/>
+</picture>
+
+</div>
+
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## `> cat interests.txt`
+
+```yaml
+security:   [digital-forensics, fraud-detection, secure-auth, password-cracking, CTFs]
+math:       [graph-theory, algorithms, discrete-mathematics]
+currently:  "recovering deleted CCTV footage from raw recorder disks — SIH26150"
+motto:      "Build it secure. Then try to break it."
+```
+
+<div align="center">
+
+<br/>
+
+<a href="https://github.com/BhanuPrasad-2006?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-MY%20REPOS-00ff9c?style=for-the-badge&labelColor=0a0e14&logo=github&logoColor=00ff9c"/></a>
+
+<sub><code>// session closed · stay curious · stay secure</code></sub>
+
+</div>
