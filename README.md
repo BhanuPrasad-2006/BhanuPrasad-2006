@@ -24,10 +24,10 @@ I build secure full-stack systems and digital-forensics tools, and I play CTFs.
 
 ### 🧰 Tech I use
 
-**Languages:** Python · JavaScript · SQL
-**Web:** React · Next.js · Node.js / Express · FastAPI · Tailwind CSS
-**Data & infra:** PostgreSQL · MongoDB · SQLite · Redis · Prisma · Docker
-**Security:** Digital forensics · Secure auth (JWT, OTP, 2FA) · Password-hash cracking (hashcat) · CTFs
+- **Languages:** Python · JavaScript · SQL
+- **Web:** React · Next.js · Node.js / Express · FastAPI · Tailwind CSS
+- **Data & infra:** PostgreSQL · MongoDB · SQLite · Redis · Prisma · Docker
+- **Security:** Digital forensics · Secure auth (JWT, OTP, 2FA) · Password-hash cracking (hashcat) · CTFs
 
 ### 📚 Interests
 
