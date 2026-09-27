@@ -2,7 +2,7 @@
 
 # Hi, I'm Bhanu Prasad 👋
 
-**Computer Science & Cyber Security student** at Dayananda Sagar College of Engineering, Bengaluru
+**Computer Science & Cyber Security student** at Dayananda Sagar College of Engineering, Bengaluru<br>
 I build secure full-stack systems and digital-forensics tools, and I play CTFs.
 
 </div>
