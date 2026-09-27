@@ -7,6 +7,7 @@
 <a href="https://github.com/BhanuPrasad-2006"><img src="https://img.shields.io/badge/STATUS-ONLINE-00ff9c?style=for-the-badge&labelColor=0a0e14&logo=gnubash&logoColor=00ff9c" alt="status"/></a>
 <img src="https://img.shields.io/badge/FOCUS-DIGITAL%20FORENSICS-00e5ff?style=for-the-badge&labelColor=0a0e14&logo=hackthebox&logoColor=00e5ff" alt="focus"/>
 <img src="https://img.shields.io/badge/SIH%202026-SIH26150-ff2e88?style=for-the-badge&labelColor=0a0e14&logo=target&logoColor=ff2e88" alt="SIH 2026"/>
+<a href="https://www.linkedin.com/in/bhanuprasad-gulivindala-26751432a/"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&labelColor=0a0e14&logo=linkedin&logoColor=0A66C2" alt="LinkedIn"/></a>
 <img src="https://komarev.com/ghpvc/?username=BhanuPrasad-2006&label=PROFILE%20HITS&color=00ff9c&style=for-the-badge&labelColor=0a0e14" alt="profile views"/>
 
 </div>
@@ -118,7 +119,12 @@ motto:      "Build it secure. Then try to break it."
 
 <br/>
 
-<a href="https://github.com/BhanuPrasad-2006?tab=repositories"><img src="https://img.shields.io/badge/EXPLORE-MY%20REPOS-00ff9c?style=for-the-badge&labelColor=0a0e14&logo=github&logoColor=00ff9c"/></a>
+<img src="./assets/divider.svg" width="100%" alt=""/>
+
+## `> ./connect --secure`
+
+<a href="https://www.linkedin.com/in/bhanuprasad-gulivindala-26751432a/"><img src="https://img.shields.io/badge/LinkedIn-Bhanu%20Prasad%20Gulivindala-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0e14"/></a>
+<a href="https://github.com/BhanuPrasad-2006?tab=repositories"><img src="https://img.shields.io/badge/GitHub-Explore%20my%20repos-00ff9c?style=for-the-badge&logo=github&logoColor=00ff9c&labelColor=0a0e14"/></a>
 
 <sub><code>// session closed · stay curious · stay secure</code></sub>
 
