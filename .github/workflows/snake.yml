@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Generate profile graphics
 
 on:
   schedule:
@@ -15,6 +15,15 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+          OUT_DIR: dist
+        run: python3 scripts/stats.py
+
       - name: Generate snake SVGs
         uses: Platane/snk@v3
         with:

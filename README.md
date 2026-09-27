@@ -120,8 +120,8 @@ Built for rural India — prescription scanner, SOS ambulance dispatch, blood-do
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=BhanuPrasad-2006&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0a0e14&title_color=00ff9c&icon_color=00e5ff&text_color=c9d1d9&ring_color=00ff9c" alt="GitHub stats"/>
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=BhanuPrasad-2006&layout=compact&langs_count=8&hide_border=true&bg_color=0a0e14&title_color=00ff9c&text_color=c9d1d9" alt="Top languages"/>
+<img width="49%" src="https://raw.githubusercontent.com/BhanuPrasad-2006/BhanuPrasad-2006/output/stats.svg" alt="GitHub stats"/>
+<img width="49%" src="https://raw.githubusercontent.com/BhanuPrasad-2006/BhanuPrasad-2006/output/langs.svg" alt="Most used languages"/>
 
 <img width="85%" src="https://streak-stats.demolab.com?user=BhanuPrasad-2006&hide_border=true&background=0a0e14&ring=00ff9c&fire=ff2e88&currStreakLabel=00ff9c&sideLabels=00e5ff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e&stroke=00ff9c33" alt="Contribution streak"/>
 
