@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#0f2a22"/><stop offset=".55" stop-color="#08121a"/><stop offset="1" stop-color="#04070b"/></radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00ff9c"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+    <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#00ff9c" stroke-opacity=".08"/></pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="500" height="500" fill="url(#bg)"/>
+  <rect width="500" height="500" fill="url(#grid)"/>
+  <g stroke="#00ff9c" stroke-opacity=".35" stroke-width="2" fill="none">
+    <path d="M0 120 H70 L95 145 V190"/><circle cx="95" cy="196" r="5"/>
+    <path d="M500 330 H430 L405 355 V400"/><circle cx="405" cy="406" r="5"/>
+    <path d="M60 500 V430 L85 405 H120"/><circle cx="126" cy="405" r="5"/>
+    <path d="M440 0 V70 L415 95 H380"/><circle cx="374" cy="95" r="5"/>
+  </g>
+  <circle cx="250" cy="250" r="196" fill="none" stroke="#00e5ff" stroke-opacity=".45" stroke-width="3" stroke-dasharray="6 14 60 14"/>
+  <circle cx="250" cy="250" r="178" fill="none" stroke="#00ff9c" stroke-opacity=".3" stroke-width="1.5"/>
+  <path d="M250 92 L372 138 V244 C372 322 322 378 250 408 C178 378 128 322 128 244 V138 Z" fill="#00ff9c" fill-opacity=".07" stroke="url(#neon)" stroke-width="7" filter="url(#glow)"/>
+  <text x="250" y="292" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-weight="800" font-size="118" fill="url(#neon)" letter-spacing="4" filter="url(#soft)">BP</text>
+  <rect x="190" y="316" width="120" height="6" rx="3" fill="#00ff9c" opacity=".8"/>
+  <text x="250" y="352" text-anchor="middle" font-family="'JetBrains Mono','DejaVu Sans Mono','Courier New',monospace" font-size="17" fill="#7ee7c1" letter-spacing="3">SEC · OPS</text>
+</svg>

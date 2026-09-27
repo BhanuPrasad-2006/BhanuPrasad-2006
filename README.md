@@ -21,58 +21,22 @@
 
 <br/>
 
-I'm a **Computer Science & Cyber Security** student at **Dayananda Sagar College of Engineering, Bengaluru**. I like building systems that hold up under attack — and taking apart ones that don't. Right now I'm deep in **digital forensics**, recovering surveillance footage from DVR/NVR disks for **Smart India Hackathon 2026**.
+I'm a **Computer Science & Cyber Security** student at **Dayananda Sagar College of Engineering, Bengaluru**. I like building systems that hold up under attack — and taking apart ones that don't. I work where **security meets computer vision** — face-verified voting with liveness anti-spoofing, and AI face search over recovered CCTV footage. Right now I'm deep in **digital forensics** for **Smart India Hackathon 2026**, pulling deleted surveillance video off raw DVR/NVR disks.
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
 ## `> ls ./projects --featured`
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### 🎥 [DVR/NVR Forensic Analysis Tool](https://github.com/BhanuPrasad-2006/sih-26150)
-**SIH 2026 · NTRO · SIH26150**
+<a href="https://github.com/BhanuPrasad-2006/sih-26150"><img src="./assets/cards/sih.svg" width="49%" alt="DVR/NVR Forensic Analysis Tool — SIH 2026"/></a>
+<a href="https://github.com/BhanuPrasad-2006/online-college-electoral-system"><img src="./assets/cards/election.svg" width="49%" alt="Secure College Election System — face-verified voting"/></a>
+<a href="https://github.com/BhanuPrasad-2006/vaultcore"><img src="./assets/cards/vaultcore.svg" width="49%" alt="VaultCore — real-time fraud detection"/></a>
+<a href="https://github.com/BhanuPrasad-2006/Hospital-management-mini-project"><img src="./assets/cards/hospital.svg" width="49%" alt="Hospital Management System"/></a>
 
-Vendor-agnostic evidence recovery for surveillance recorders — read-only acquisition with SHA-256/MD5 hashing, vendor-format parsing (Dahua, Hikvision, Honeywell), deleted-footage carving, cross-camera timelines and chain-of-custody reports.
+<sub>click a card to open the repo</sub>
 
-<img src="https://img.shields.io/badge/Python-0a0e14?style=flat-square&logo=python&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/FastAPI-0a0e14?style=flat-square&logo=fastapi&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/OpenCV-0a0e14?style=flat-square&logo=opencv&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/FFmpeg-0a0e14?style=flat-square&logo=ffmpeg&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Docker-0a0e14?style=flat-square&logo=docker&logoColor=00ff9c"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🗳️ [Secure College Election System](https://github.com/BhanuPrasad-2006/online-college-electoral-system)
-**E-voting · Integrity · Fraud detection**
-
-Online elections with OTP + just-in-time identity checks, anonymous votes linked in a hash chain, anti-replay tokens, AI anomaly detection and a full audit trail.
-
-<img src="https://img.shields.io/badge/Next.js-0a0e14?style=flat-square&logo=nextdotjs&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/FastAPI-0a0e14?style=flat-square&logo=fastapi&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Redis-0a0e14?style=flat-square&logo=redis&logoColor=00ff9c"/>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🏦 [VaultCore](https://github.com/BhanuPrasad-2006/vaultcore)
-**Banking · Real-time ML fraud scoring**
-
-Every withdrawal is risk-scored by an Isolation Forest model: allow, step-up to 2FA, or freeze. Device fingerprinting, AES-256 encrypted account numbers, rate limiting and live WebSocket threat alerts.
-
-<img src="https://img.shields.io/badge/Node.js-0a0e14?style=flat-square&logo=nodedotjs&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/scikit--learn-0a0e14?style=flat-square&logo=scikitlearn&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/MongoDB-0a0e14?style=flat-square&logo=mongodb&logoColor=00e5ff"/>
-
-</td>
-<td width="50%" valign="top">
-
-### 🏥 [Hospital Management System](https://github.com/BhanuPrasad-2006/Hospital-management-mini-project)
-**Healthcare · Zero-trust security**
-
-Built for rural India — prescription scanner, SOS ambulance dispatch, blood-donor network and 8-language support, with JWT auth, account lockout and zero-trust access controls.
-
-<img src="https://img.shields.io/badge/React-0a0e14?style=flat-square&logo=react&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/Express-0a0e14?style=flat-square&logo=express&logoColor=00ff9c"/> <img src="https://img.shields.io/badge/Prisma-0a0e14?style=flat-square&logo=prisma&logoColor=00e5ff"/> <img src="https://img.shields.io/badge/PostgreSQL-0a0e14?style=flat-square&logo=postgresql&logoColor=00ff9c"/>
-
-</td>
-</tr>
-</table>
+</div>
 
 <img src="./assets/divider.svg" width="100%" alt=""/>
 
@@ -107,6 +71,12 @@ Built for rural India — prescription scanner, SOS ambulance dispatch, blood-do
 <img src="https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white"/>
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
 </td></tr>
+<tr><td><b><code>[biometrics · vision]</code></b></td><td>
+<img src="https://img.shields.io/badge/Face%20Recognition-ArcFace-0a0e14?style=for-the-badge&logo=opencv&logoColor=00ff9c&labelColor=0a0e14&color=00ff9c"/>
+<img src="https://img.shields.io/badge/Liveness-Anti--Spoofing-0a0e14?style=for-the-badge&logo=adguard&logoColor=00e5ff&labelColor=0a0e14&color=00e5ff"/>
+<img src="https://img.shields.io/badge/Face%20Search-YuNet%20%2B%20SFace-0a0e14?style=for-the-badge&logo=opencv&logoColor=ff2e88&labelColor=0a0e14&color=ff2e88"/>
+<img src="https://img.shields.io/badge/DeepFace-0a0e14?style=for-the-badge&logo=tensorflow&logoColor=FF6F00"/>
+</td></tr>
 <tr><td><b><code>[ml · media]</code></b></td><td>
 <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
 <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
@@ -138,7 +108,7 @@ Built for rural India — prescription scanner, SOS ambulance dispatch, blood-do
 ## `> cat interests.txt`
 
 ```yaml
-security:   [digital-forensics, fraud-detection, secure-auth, password-cracking, CTFs]
+security:   [digital-forensics, biometrics, face-recognition, fraud-detection, secure-auth, CTFs]
 math:       [graph-theory, algorithms, discrete-mathematics]
 currently:  "recovering deleted CCTV footage from raw recorder disks — SIH26150"
 motto:      "Build it secure. Then try to break it."

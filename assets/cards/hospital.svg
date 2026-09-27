@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Hospital Management System — AI prescription scanner, SOS dispatch, zero-trust security">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b11"/><stop offset="1" stop-color="#0a0e14"/></linearGradient>
+    <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#00e5ff"/><stop offset="1" stop-color="#00ff9c"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00e5ff" stroke-opacity=".06"/></pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="600" height="330" rx="14"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+    .row { opacity: 0; animation: in .6s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-10px) } to { opacity: 1; transform: none } }
+    .blink { animation: blink 1.2s steps(1) infinite; } @keyframes blink { 50% { opacity: 0 } }
+    .spin { animation: spin 10s linear infinite; transform-box: fill-box; transform-origin: center; } @keyframes spin { to { transform: rotate(360deg) } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="330" fill="url(#bg)"/>
+    <rect width="600" height="330" fill="url(#grid)"/>
+    <rect width="600" height="3" fill="url(#edge)"/>
+    <rect y="3" width="600" height="60" fill="url(#edge)" opacity=".05"/>
+    
+    <g transform="translate(410 100)">
+      <rect x="0" y="-12" width="170" height="100" rx="8" fill="#050809" stroke="#00ff9c" stroke-opacity=".45"/>
+      <clipPath id="ecgclip"><rect x="0" y="-12" width="170" height="100" rx="8"/></clipPath>
+      <g clip-path="url(#ecgclip)">
+        <g>
+          <path d="M0 40 H40 L50 40 L56 30 L62 40 L70 40 L76 4 L84 74 L90 40 L100 40 L108 32 L118 40 H160" transform="translate(5 0)" fill="none" stroke="#00ff9c" stroke-width="2.4" filter="url(#glow)"/>
+          <path d="M0 40 H40 L50 40 L56 30 L62 40 L70 40 L76 4 L84 74 L90 40 L100 40 L108 32 L118 40 H160" transform="translate(165 0)" fill="none" stroke="#00ff9c" stroke-width="2.4" filter="url(#glow)"/>
+          <animateTransform attributeName="transform" type="translate" values="0 0;-160 0" dur="2.2s" repeatCount="indefinite"/>
+        </g>
+      </g>
+      <text x="8" y="104" font-size="10" fill="#00e5ff">SOS · donors · 8 langs</text>
+      <g transform="translate(118 116)">
+        <path d="M14 0 L28 6 V18 C28 27 21 33 14 36 C7 33 0 27 0 18 V6 Z" fill="#00ff9c" fill-opacity=".12" stroke="#00ff9c" stroke-width="1.8"/>
+        <path d="M8 18 l4 4 l8 -9" fill="none" stroke="#00ff9c" stroke-width="2"/>
+      </g>
+      <text x="8" y="132" font-size="10" fill="#8b949e">zero-trust access</text>
+    </g>
+    <circle class="blink" cx="34" cy="38" r="5" fill="#00e5ff"/>
+    <text x="48" y="43" font-size="12" fill="#00e5ff" letter-spacing="1.5">HEALTHTECH · RURAL INDIA</text>
+    <text x="28" y="100" font-size="24" font-weight="700" fill="#e6edf3" filter="url(#glow)">Hospital Management</text>
+    <rect x="28" y="112" width="64" height="2.5" fill="url(#edge)"/>
+    <g class="row" style="animation-delay:0.25s"><text x="28" y="150" font-size="13.5" fill="#00e5ff">▸</text><text x="46" y="150" font-size="13.5" fill="#e6edf3">AI prescription scanner</text></g>
+<g class="row" style="animation-delay:0.43s"><text x="28" y="180" font-size="13.5" fill="#00e5ff">▸</text><text x="46" y="180" font-size="13.5" fill="#e6edf3">SOS ambulance dispatch</text></g>
+<g class="row" style="animation-delay:0.61s"><text x="28" y="210" font-size="13.5" fill="#00e5ff">▸</text><text x="46" y="210" font-size="13.5" fill="#e6edf3">Blood-donor network · 8 languages</text></g>
+<g class="row" style="animation-delay:0.79s"><text x="28" y="240" font-size="13.5" fill="#00e5ff">▸</text><text x="46" y="240" font-size="13.5" fill="#e6edf3">JWT, lockout &amp; zero-trust security</text></g>
+    <g transform="translate(28 284)"><rect width="52" height="24" rx="5" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-opacity=".55"/><text x="26" y="16.5" text-anchor="middle" font-size="12" fill="#00ff9c">React</text></g>
+<g transform="translate(88 284)"><rect width="67" height="24" rx="5" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-opacity=".55"/><text x="34" y="16.5" text-anchor="middle" font-size="12" fill="#00ff9c">Express</text></g>
+<g transform="translate(163 284)"><rect width="60" height="24" rx="5" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-opacity=".55"/><text x="30" y="16.5" text-anchor="middle" font-size="12" fill="#00ff9c">Prisma</text></g>
+<g transform="translate(231 284)"><rect width="90" height="24" rx="5" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-opacity=".55"/><text x="45" y="16.5" text-anchor="middle" font-size="12" fill="#00ff9c">PostgreSQL</text></g>
+<g transform="translate(329 284)"><rect width="67" height="24" rx="5" fill="#00ff9c" fill-opacity=".08" stroke="#00ff9c" stroke-opacity=".55"/><text x="34" y="16.5" text-anchor="middle" font-size="12" fill="#00ff9c">FastAPI</text></g>
+  </g>
+  <rect x="1" y="1" width="598" height="328" rx="13" fill="none" stroke="url(#edge)" stroke-opacity=".6"/>
+</svg>

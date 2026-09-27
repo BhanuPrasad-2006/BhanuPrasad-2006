@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330" role="img" aria-label="Secure College Election System — ArcFace face verification with passive liveness, hash-chained anonymous ballots">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#070b11"/><stop offset="1" stop-color="#0a0e14"/></linearGradient>
+    <linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#00ff9c"/><stop offset="1" stop-color="#00e5ff"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#00ff9c" stroke-opacity=".06"/></pattern>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><rect width="600" height="330" rx="14"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+    .row { opacity: 0; animation: in .6s ease-out forwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-10px) } to { opacity: 1; transform: none } }
+    .blink { animation: blink 1.2s steps(1) infinite; } @keyframes blink { 50% { opacity: 0 } }
+    .spin { animation: spin 10s linear infinite; transform-box: fill-box; transform-origin: center; } @keyframes spin { to { transform: rotate(360deg) } }
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="600" height="330" fill="url(#bg)"/>
+    <rect width="600" height="330" fill="url(#grid)"/>
+    <rect width="600" height="3" fill="url(#edge)"/>
+    <rect y="3" width="600" height="60" fill="url(#edge)" opacity=".05"/>
+    
+    <g opacity=".95">
+      <ellipse cx="516" cy="152" rx="54" ry="68" fill="none" stroke="#00e5ff" stroke-opacity=".35" stroke-dasharray="3 5"/>
+      <g stroke="#00ff9c" stroke-opacity=".45" stroke-width="1"><line x1="516" y1="98" x2="486" y2="110"/><line x1="516" y1="98" x2="546" y2="110"/><line x1="486" y1="110" x2="474" y2="140"/><line x1="546" y1="110" x2="558" y2="140"/><line x1="474" y1="140" x2="476" y2="172"/><line x1="558" y1="140" x2="556" y2="172"/><line x1="476" y1="172" x2="492" y2="198"/><line x1="556" y1="172" x2="540" y2="198"/><line x1="492" y1="198" x2="516" y2="208"/><line x1="540" y1="198" x2="516" y2="208"/><line x1="498" y1="136" x2="516" y2="156"/><line x1="534" y1="136" x2="516" y2="156"/><line x1="516" y1="156" x2="516" y2="180"/><line x1="502" y1="178" x2="516" y2="180"/><line x1="530" y1="178" x2="516" y2="180"/><line x1="498" y1="136" x2="486" y2="110"/><line x1="534" y1="136" x2="546" y2="110"/><line x1="502" y1="178" x2="492" y2="198"/><line x1="530" y1="178" x2="540" y2="198"/><line x1="498" y1="136" x2="474" y2="140"/><line x1="534" y1="136" x2="558" y2="140"/></g>
+      <g fill="#00ff9c"><circle cx="516" cy="98" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.00s" repeatCount="indefinite"/></circle><circle cx="486" cy="110" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.12s" repeatCount="indefinite"/></circle><circle cx="546" cy="110" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.24s" repeatCount="indefinite"/></circle><circle cx="474" cy="140" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.36s" repeatCount="indefinite"/></circle><circle cx="558" cy="140" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.48s" repeatCount="indefinite"/></circle><circle cx="476" cy="172" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.60s" repeatCount="indefinite"/></circle><circle cx="556" cy="172" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.72s" repeatCount="indefinite"/></circle><circle cx="492" cy="198" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.84s" repeatCount="indefinite"/></circle><circle cx="540" cy="198" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="0.96s" repeatCount="indefinite"/></circle><circle cx="516" cy="208" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.08s" repeatCount="indefinite"/></circle><circle cx="498" cy="136" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.20s" repeatCount="indefinite"/></circle><circle cx="534" cy="136" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.32s" repeatCount="indefinite"/></circle><circle cx="516" cy="156" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.44s" repeatCount="indefinite"/></circle><circle cx="502" cy="178" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.56s" repeatCount="indefinite"/></circle><circle cx="530" cy="178" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.68s" repeatCount="indefinite"/></circle><circle cx="516" cy="180" r="2.6"><animate attributeName="opacity" values=".3;1;.3" dur="2s" begin="1.80s" repeatCount="indefinite"/></circle></g>
+      <g stroke="#00e5ff" stroke-width="2.5" fill="none">
+        <path d="M450 92v-18h18"/><path d="M582 92v-18h-18"/><path d="M450 212v18h18"/><path d="M582 212v18h-18"/>
+      </g>
+      <rect x="452" y="74" width="128" height="3" fill="#00ff9c" filter="url(#glow)">
+        <animate attributeName="y" values="74;228;74" dur="3s" repeatCount="indefinite"/>
+      </rect>
+      <g font-size="11">
+        <rect x="454" y="242" width="124" height="22" rx="4" fill="#00ff9c" fill-opacity=".1" stroke="#00ff9c" stroke-opacity=".6"/>
+        <text x="516" y="257" text-anchor="middle" fill="#00ff9c">
+          <tspan>LIVENESS ✓ · MATCH ✓</tspan>
+          <animate attributeName="opacity" values="0;0;1;1" keyTimes="0;.45;.5;1" dur="3s" repeatCount="indefinite"/>
+        </text>
+        <text x="516" y="257" text-anchor="middle" fill="#00e5ff">
+          <tspan>SCANNING…</tspan>
+          <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;.45;.5;1" dur="3s" repeatCount="indefinite"/>
+        </text>
+      </g>
+    </g>
+    <circle class="blink" cx="34" cy="38" r="5" fill="#00ff9c"/>
+    <text x="48" y="43" font-size="12" fill="#00ff9c" letter-spacing="1.5">BIOMETRIC E-VOTING</text>
+    <text x="28" y="100" font-size="24" font-weight="700" fill="#e6edf3" filter="url(#glow)">Secure College Election</text>
+    <rect x="28" y="112" width="64" height="2.5" fill="url(#edge)"/>
+    <g class="row" style="animation-delay:0.25s"><text x="28" y="150" font-size="13.5" fill="#00ff9c">▸</text><text x="46" y="150" font-size="13.5" fill="#e6edf3">ArcFace face recognition + passive liveness</text></g>
+<g class="row" style="animation-delay:0.43s"><text x="28" y="180" font-size="13.5" fill="#00ff9c">▸</text><text x="46" y="180" font-size="13.5" fill="#e6edf3">Anti-spoofing: rejects photos &amp; replays</text></g>
+<g class="row" style="animation-delay:0.61s"><text x="28" y="210" font-size="13.5" fill="#00ff9c">▸</text><text x="46" y="210" font-size="13.5" fill="#e6edf3">Anonymous, hash-chained ballots</text></g>
+<g class="row" style="animation-delay:0.79s"><text x="28" y="240" font-size="13.5" fill="#00ff9c">▸</text><text x="46" y="240" font-size="13.5" fill="#e6edf3">One-time vote token · AI fraud alerts</text></g>
+    <g transform="translate(28 284)"><rect width="52" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".55"/><text x="26" y="16.5" text-anchor="middle" font-size="12" fill="#00e5ff">React</text></g>
+<g transform="translate(88 284)"><rect width="67" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".55"/><text x="34" y="16.5" text-anchor="middle" font-size="12" fill="#00e5ff">FastAPI</text></g>
+<g transform="translate(163 284)"><rect width="75" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".55"/><text x="37" y="16.5" text-anchor="middle" font-size="12" fill="#00e5ff">DeepFace</text></g>
+<g transform="translate(246 284)"><rect width="90" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".55"/><text x="45" y="16.5" text-anchor="middle" font-size="12" fill="#00e5ff">PostgreSQL</text></g>
+<g transform="translate(344 284)"><rect width="52" height="24" rx="5" fill="#00e5ff" fill-opacity=".08" stroke="#00e5ff" stroke-opacity=".55"/><text x="26" y="16.5" text-anchor="middle" font-size="12" fill="#00e5ff">Redis</text></g>
+  </g>
+  <rect x="1" y="1" width="598" height="328" rx="13" fill="none" stroke="url(#edge)" stroke-opacity=".6"/>
+</svg>
