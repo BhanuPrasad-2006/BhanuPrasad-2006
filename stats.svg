@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="272" viewBox="0 0 450 272" role="img" aria-label="$ ./scan --stats">
+  <style>
+    text { font-family: 'JetBrains Mono','Fira Code','Cascadia Code',Consolas,'Courier New',monospace; }
+    .row { animation: in .6s ease-out backwards; }
+    @keyframes in { from { opacity: 0; transform: translateX(-8px) } to { opacity: 1; transform: none } }
+    .bar { transform-box: fill-box; transform-origin: left; animation: grow 1.1s ease-out backwards; }
+    @keyframes grow { from { transform: scaleX(0) } to { transform: scaleX(1) } }
+    .blink { animation: b 1s steps(1) infinite; } @keyframes b { 50% { opacity: 0 } }
+  </style>
+  <rect x="1" y="1" width="448" height="270" rx="12" fill="#0a0e14" stroke="#00ff9c" stroke-opacity=".35"/>
+  <text x="24" y="36" fill="#00ff9c" font-size="16" font-weight="700">$ ./scan --stats</text>
+  <rect class="blink" x="186.8" y="23" width="8" height="16" fill="#00ff9c"/>
+  <line x1="24" y1="50" x2="426" y2="50" stroke="#00ff9c" stroke-opacity=".2"/>
+  <g class="row" style="animation-delay:0.00s"><text x="24" y="82" font-size="14" fill="#00ff9c">[+]</text><text x="60" y="82" font-size="14" fill="#e6edf3">Commits (last year)</text><text x="426" y="82" font-size="14" fill="#00ff9c" text-anchor="end" font-weight="700">328</text></g>
+  <g class="row" style="animation-delay:0.15s"><text x="24" y="110" font-size="14" fill="#00ff9c">[+]</text><text x="60" y="110" font-size="14" fill="#e6edf3">Total contributions</text><text x="426" y="110" font-size="14" fill="#00ff9c" text-anchor="end" font-weight="700">355</text></g>
+  <g class="row" style="animation-delay:0.30s"><text x="24" y="138" font-size="14" fill="#00e5ff">[+]</text><text x="60" y="138" font-size="14" fill="#e6edf3">Pull requests</text><text x="426" y="138" font-size="14" fill="#00e5ff" text-anchor="end" font-weight="700">18</text></g>
+  <g class="row" style="animation-delay:0.45s"><text x="24" y="166" font-size="14" fill="#00e5ff">[+]</text><text x="60" y="166" font-size="14" fill="#e6edf3">Issues</text><text x="426" y="166" font-size="14" fill="#00e5ff" text-anchor="end" font-weight="700">0</text></g>
+  <g class="row" style="animation-delay:0.60s"><text x="24" y="194" font-size="14" fill="#ff2e88">[+]</text><text x="60" y="194" font-size="14" fill="#e6edf3">Public repositories</text><text x="426" y="194" font-size="14" fill="#ff2e88" text-anchor="end" font-weight="700">9</text></g>
+  <g class="row" style="animation-delay:0.75s"><text x="24" y="222" font-size="14" fill="#ff2e88">[+]</text><text x="60" y="222" font-size="14" fill="#e6edf3">Stars earned</text><text x="426" y="222" font-size="14" fill="#ff2e88" text-anchor="end" font-weight="700">0</text></g>
+  <text x="24" y="254" font-size="11" fill="#8b949e">last scan: 2026-10-03 15:17 UTC</text>
+</svg>
